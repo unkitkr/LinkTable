@@ -29,5 +29,5 @@
 |full_name| String| Yes| "Ankit"|
 |user_email| String | Yes| "importankit@gmail.com"|
 |user_password| String| Yes | "Somepassword"|
-|user_name| String| Yes | "unkitkr"|
+|user_name| String| Yes | "unkitkr
 
