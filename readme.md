@@ -24,10 +24,7 @@
 /signup
 ###### Payload (JSON Form data):
 
-|Parameter| Type |Required|Sample Value|
-|--|--|--|--|--|--|
-|full_name| String| Yes| "Ankit"|
-|user_email| String | Yes| "importankit@gmail.com"|
-|user_password| String| Yes | "Somepassword"|
-|user_name| String| Yes | "unkitkr
+|Some| asas  |
+|--|--|
+| asAS |  AS|
 
