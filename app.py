@@ -6,7 +6,7 @@ import uuid
 
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://postgres:SudoAdmin123@localhost/colink"
+app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://postgres:{Your password}@localhost/{Your username}"
 app.config['SECRET_KEY'] = '0817PDNTSPA'
 
 db.app = app
