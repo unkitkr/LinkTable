@@ -30,3 +30,47 @@
 |user_email| String | Yes| "importankit@gmail.com"|
 |user_password| String| Yes | "Somepassword"|
 |user_name| String| Yes | "unkitkr|
+
+##### Signin
+/signin
+###### Payload (JSON Form data):
+
+|Parameter| Type |Required|Sample Value|
+|--|--|--|--|
+|user_password| String| Yes | "Somepassword"|
+|user_name| String| Yes | "unkitkr|
+
+##### Create Room
+/createroom
+###### Payload (JSON Form data):
+
+|Parameter| Type |Required|Sample Value|
+|--|--|--|--|
+|room_name| String| Yes | "Some Name"|
+
+
+##### Share link
+/sendlink
+###### Payload (JSON Form data):
+
+|Parameter| Type |Required|Sample Value|
+|--|--|--|--|
+|link| String| Yes | "Some Name"|
+|room_id| String (UUID)| Yes | "Some ID"|
+|link_description| String| Yes | "URL, Description"|
+
+##### Get room data
+/getroomdata
+###### Payload (JSON Form data):
+
+|Parameter| Type |Required|Sample Value|
+|--|--|--|--|
+|room_id| String (UUID)| Yes | "Some Name"|
+
+##### Join room 
+/joinroom
+###### Payload
+None, just needs to be authenticated.
+
+
+
